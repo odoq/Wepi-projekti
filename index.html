@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <form id="weatherForm">
+        <label for="city">Enter city name:</label>
+        <input type="text" id="input-show">
+        <button id="submit-data">Search</button>
+
+        <select id="unit-select">
+            <option value="metric">Celsius</option>
+            <option value="imperial">Fahrenheit</option>
+            <option value="standard">Kelvin</option>
+        </select>
+        <button id="get-location">Get Location</button>
+    <!--<div id="unit-select">
+        <input type="radio" id="celsius" name="unit" value="metric">
+        <label for="celsius">Celsius</label>
+        <input type="radio" id="fahrenheit" name="unit" value="imperial">
+        <label for="fahrenheit">Fahrenheit</label>
+        <input type="radio" id="kelvin" name="unit" value="standard">
+        <label for="kelvin">Kelvin</label>
+    </div>-->
+    </form>
+    <div id="show-weather">
+
+    </div>
+</body>
+</html>
